@@ -1,0 +1,19 @@
+body {
+    font-size: 10px;
+    line-height: 1;
+    background-color: #3F92D2;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.6rem 1.6rem 0.8rem;
+    background-color: #334654;
+}
+
+h1 {
+    font: normal normal 2.4rem/1.5 Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
