@@ -17,4 +17,4 @@
     * Курсы Imaguru Code Academy “Front-end web developer” II модуль 2016.
 8. I have not english practice.
 
-[!my avatar](./img/avatar-markdown-cv.png)
+[!my avatar](/img/avatar-markdown-cv.png)
