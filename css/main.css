@@ -1,19 +1,77 @@
-body {
+html {
     font-size: 10px;
-    line-height: 1;
-    background-color: #3F92D2;
-    box-sizing: border-box;
 }
-
+body {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    background-color: #3F92D2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     width: 100%;
+}
+
+div.task-cont {
+    width: 100%;
     margin: 0 auto;
-    padding: 1.6rem 1.6rem 0.8rem;
+    padding: 3.2rem 1.6rem 1.6rem;
     background-color: #334654;
 }
 
-h1 {
-    font: normal normal 2.4rem/1.5 Arial, Helvetica, sans-serif;
-    color: #fff;
+h1.task-name {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #ffffff;
     text-align: center;
 }
+
+div.h-layout-cont {
+    width: 100%;
+    max-width: 32rem;
+    margin: 2.4rem auto -6.8rem;
+    padding: 6.4rem 0 9.6rem;
+    text-align: center;
+    background-color: #18252d;
+    color: #ffffff;
+    box-shadow: 0 0 1.6rem -0.8rem rgba(0, 0, 0, 1);
+}
+
+h1.h-layout-fullname {
+    margin-bottom: 1.6rem;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-transform: uppercase;
+}
+h2.h-layout-status {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+.h-layout-ava-cont {
+    width: 13.6rem;
+    height: auto;
+    min-height: 13.6rem;
+    margin: 0 auto -6.8rem;
+    border: 0.4rem solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 0 1.6rem -0.8rem rgba(0, 0, 0, 1);
+}
+.h-ava-student {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
