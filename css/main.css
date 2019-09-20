@@ -30,10 +30,22 @@ hr.box-sep {
     margin: 0 0 3.2rem;
     border: none;
     border-radius: 0.2rem;
+}
+
+.white-sep {
     background-color: #ffffff;
 }
+
+.black-sep{
+    background-color: #636363;
+}
+
 .white-font {
     color: #ffffff;
+}
+
+.blacklight-font {
+    color: #636363;
 }
 
 header {
@@ -109,22 +121,53 @@ main {
     margin: 0 auto;
     
 }
-.contacts-box {
+.card-box {
+    margin-bottom: 0.8rem;
     padding: 0.8rem 0 6rem;
     width: 100%;
     border-radius: 0.4rem;
-    background-color: #27aae1;
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
-.contacts-column {
+.card-column {
     padding: 0 2.4rem;
 }
 h2.name-section {
-    margin: 8.2rem auto 0.8rem;
+    margin: 5.2rem auto 0.8rem;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 1;
 }
+
+h2.name-section.b-margin {
+    margin-top: 8.2rem;
+}
+
+.card-blue {
+    background-color: #27aae1;
+}
+
+.card-purple {
+    background-color: #5a5072;
+}
+
+.card-green {
+    background-color: #5aa080;
+}
+
+.card-red {
+    background-color: #e54c5f;
+}
+
+.card-orange {
+    background-color: #ce7561;
+}
+.card-deepblue {
+    background-color: #1b75bc;
+}
+.card-white {
+    background-color: #fefff7;
+}
+
 ul.contacts-list li {
     display: inline-block;
     vertical-align: middle;
