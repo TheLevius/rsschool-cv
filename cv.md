@@ -5,7 +5,7 @@
     * Telegram: @TheLevius,
     * Facebook: nikitalevitsky,
     * Vk: nikitalevitsky,
-    * https://thelevius.github.io
+    * [github](https://github.com/thelevius)
 
 3. Моя цель стать отличным __front-end__ разработчиком, хорошо усвоив __javascript__ и сопутствующие _фреймворки_ и _библотеки_, используя их возможности на максимум, проектировать жесточайше качественные _интерфейсы_.
 
@@ -18,7 +18,7 @@
           }
         }
 6.  ## Experience:
-    * [cv-html-css task (update)](https://thelevius.github.io/rsschool/index.html),
+    * [cv-html-css task](https://thelevius.github.io/rsschool/index.html),
     * [auto-parts-landing-practice](https://github.com/TheLevius/autoparts-store-test);
 
 7. ## Образование:
