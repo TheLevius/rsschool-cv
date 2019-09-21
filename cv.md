@@ -11,8 +11,8 @@
 
 4. __HTML__, __CSS__, __Jquery__, верстка печатных и электронных книг (ePub) InDesign, оформление (illustrator, photoshop), Знание основ типографики.
 
-5. # Code expamples:
-Что ж, если нет своего кода, вставим пример прямо из руководства
+5. # Code expamples: 
+    Что ж, если нет своего кода, вставим пример прямо из руководства
         function fancyAlert(arg) {
           if(arg) {
             $.facebox({div:'#foo'})
