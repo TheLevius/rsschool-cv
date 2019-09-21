@@ -17,7 +17,9 @@
             $.facebox({div:'#foo'})
           }
         }
-6. [cv-html-css task (update)](https://thelevius.github.io/rsschool/index.html), сайт 2, сайт 3.
+6.  ## Experience:
+    * [cv-html-css task (update)](https://thelevius.github.io/rsschool/index.html),
+    * [auto-parts-landing-practice](https://github.com/TheLevius/autoparts-store-test);
 
 7. ## Образование:
     * Средняя школа (2007);
