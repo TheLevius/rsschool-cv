@@ -48,12 +48,10 @@ hr.box-sep {
     color: #636363;
 }
 
-header {
-    width: 100%;
-}
-
 div.task-cont {
     width: 100%;
+    min-width: 32rem;
+    max-width: 102.4rem;
     margin: 0 auto;
     padding: 3.2rem 1.6rem 1.6rem;
     background-color: #334654;
@@ -66,15 +64,24 @@ h1.task-name {
     text-align: center;
 }
 
-div.h-layout-cont {
+header {
     width: 100%;
-    max-width: 28.8rem;
+    min-width: 32rem;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+div.h-layout-column {
+    width: 100%;
+    padding: 0 1.6rem;
+    text-align: center;
+    color: #ffffff;
+}
+div.h-layout-box {
     margin: 2.4rem auto -6.4rem;
     padding: 6.4rem 0 9.6rem;
     border-radius: 0.4rem;
-    text-align: center;
     background-color: #18252d;
-    color: #ffffff;
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
 
@@ -90,7 +97,7 @@ h2.h-layout-status {
     font-size: 1.4rem;
     line-height: 1.6rem;
 }
-.h-layout-ava-cont {
+.h-layout-ava-box {
     position: relative;
     z-index: 1;
     width: 13.6rem;
@@ -113,12 +120,15 @@ h2.h-layout-status {
 
 main {
     width: 100%;
+    min-width: 32rem;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
 }
 
 .sections-column {
     box-sizing: border-box;
-    max-width: 28.8rem;
-    margin: 0 auto;
+    
     
 }
 .card-box {
@@ -128,6 +138,7 @@ main {
     border-radius: 0.4rem;
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
+
 .card-column {
     padding: 0 2.4rem;
 }
@@ -259,15 +270,90 @@ div.skills-cards h3 {
 }
 
 pre.examples-box {
-    width: 100%;
-    min-height: 16rem;
-    padding: 1.6rem 2.4rem 0;
-    background-color: #fff5c5;
-    font-size: 1.4rem;
-    line-height: 2rem;
     overflow-x: scroll;
     overflow-y: hidden;
+    width: 100%;
+    min-height: 16rem;
+    padding: 1.6rem 0 0 2.4rem;
+    border-right: 2.4rem solid #fff5c5;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff5c5;
+    color: #555555;
 }
 
 
+@media all and (min-width: 321px) and (max-width: 420px) {
+    @import url("./mobile.css") all;
 
+}
+
+@media all and (min-width: 596px) {
+    
+    div.sections-left-column {
+        float: left;
+    }
+
+    div.sections-right-column {
+        float: right;
+    }
+
+    h2.name-section.b-margin-2 {
+        margin-top: 8.2rem;
+    }
+
+}
+
+@media all and (min-width: 596px) and (max-width: 959px) {
+    @import url("./tablet.css") all;
+
+    header, main {
+        max-width: 95.9rem;
+    }
+
+    div.sections-column {
+        max-width: calc(50% - 1.2rem);
+    }
+
+    .card-column {
+        padding: 0 2.4rem;
+    }
+    
+}
+
+@media all and (min-width: 596px) and (max-width: 767px) {
+
+    div.skills-cards {
+        min-width: 6.6rem;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+
+    .card-column {
+        padding: 0 4rem;
+    }
+
+}
+
+@media all and (min-width: 960px) {
+    header, main {
+        max-width: 102.4rem;
+    }
+
+    div.sections-column.sections-left-column {
+        max-width: calc(33.33% - 1.2rem);
+    }
+
+    div.sections-column.sections-right-column {
+        max-width: calc(66.66% - 1.2rem);
+    }
+
+    div.h-layout-ava-cont {
+        width: 33.33%;
+        float: left;
+    }
+
+}

@@ -11,20 +11,24 @@
     <title>Task: HTML, CSS & Git Basics</title>
 </head>
 <body>
-    <header>
-        <div class="task-cont">
-            <h1 class="task-name">Task: HTML, CSS & Git Basics</h1>
-        </div>
-        <div class="h-layout-cont">
-            <h1 class="h-layout-fullname">Nikita Levitski</h1>
-            <h2 class="h-layout-status">Junior Front-end Developer Candidate</h2>
-        </div>
-        <div class="h-layout-ava-cont">
-            <img class="h-ava-student" src="./img/avatar-resume.png" alt="Nikita Levitski pic">
-        </div>
+    <div class="task-cont">
+        <h1 class="task-name">Task: HTML, CSS & Git Basics</h1>
+    </div>
+    <header class="clearfix">
+        <div class="h-layout-column">
+            <div class="h-layout-box">
+                <h1 class="h-layout-fullname">Nikita Levitski</h1>
+                <h2 class="h-layout-status">Junior Front-end Developer Candidate</h2>
+            </div>
+            <div class="h-layout-ava-cont">
+                <div class="h-layout-ava-box">
+                    <img class="h-ava-student" src="./img/avatar-resume.png" alt="Nikita Levitski pic">
+                </div>
+            </div>
+        </div>      
     </header>
     <main>
-        <div class="sections-column">
+        <div class="sections-column sections-left-column">
             <section class="card-box white-font card-blue">
                 <div class="card-column">
                     <h2 class="name-section b-margin">Contacts:</h2>
@@ -38,9 +42,7 @@
                         <li><i class="fab fa-vk"></i><a href="#">NikitaLevitsky</a></li>                        
                     </ul>
                 </div>
-            </section>    
-        </div>
-        <div class="sections-column">
+            </section>
             <section class="card-box white-font card-purple">
                 <div class="card-column">
                     <h2 class="name-section">Skills:</h2>
@@ -50,7 +52,7 @@
                             <img class="skills-cards-img" src="./img/icons/html5-brands.svg">
                             <h3>HTML</h3>
                         </div>
-                        <div class="skills-cards">
+                            <div class="skills-cards">
                             <img class="skills-cards-img" src="./img/icons/css3-alt-brands.svg">
                             <h3>CSS</h3>
                         </div>
@@ -60,8 +62,7 @@
                         </div>
                         <div class="skills-cards">
                             <img class="skills-cards-img" src="./img/icons/adobe-indesign-icon.svg">
-                            <h3>InDesign</h3>
-                        </div>
+                            <h3>InDesign</h3>                            </div>
                         <div class="skills-cards">
                             <img class="skills-cards-img" src="./img/icons/adobe-illustrator-icon.svg">
                             <h3>Illustrator</h3>
@@ -69,53 +70,36 @@
                         <div class="skills-cards">
                             <img class="skills-cards-img" src="./img/icons/adobe-photoshop-icon.svg">
                             <h3>Photoshop</h3>
-                        </div>
-                        
+                        </div>                            
                     </div>
-                    <p>А еще проектирование и запуск космических ракет, покорение луны, разрабатывал ядро юникс, собственно потому я здесь.</p>
+                    <p lang="ru">А еще проектирование и запуск космических ракет, покорение луны, разрабатывал ядро юникс, собственно потому я здесь.</p>
                 </div>
-            </section>    
-        </div>
-        <div class="sections-column">
-            <section class="card-box white-font card-green">
-                <div class="card-column">
-                    <h2 class="name-section">Experience</h2>
-                    <hr class="box-sep white-sep">
-                    <ul class="contacts-list">
-                        <li><a href="#">Kalilaskaplus</a>
-                        <li><a href="#">imaguru spirit8</a></li>
-                        <li><a href="#">TheYellow</a></li>
-                    </ul>
-                </div>
-            </section>    
-        </div>
-        <div class="sections-column">
+            </section>
+            
             <section class="card-box white-font card-red">
                 <div class="card-column">
                     <h2 class="name-section">Education</h2>
                     <hr class="box-sep white-sep">
-                    <ul class="contacts-list">
+                    <ul class="contacts-list" lang="ru">
                         <li><span>Средняя школа (2007)</span></li>
                         <li><span>Курсы БНТУ "Компьютерная графика, верстка, дизайн" (2007)</span></li>
                         <li><span>Курсы Imaguru Code Academy: Front-end developer, Модуль II (2016)</span></li>
                         <li><span>Яндекс-практикум: Введение в HTML, CSS, JS</span></li>
                     </ul>
                 </div>
-            </section>    
-        </div>
-        <div class="sections-column">
+            </section>
             <section class="card-box white-font card-deepblue">
                 <div class="card-column">
                     <h2 class="name-section">English</h2>
                     <hr class="box-sep white-sep">
-                        <p>I Have no English practice</p>
+                    <p>I Have no English practice</p>
                 </div>
-            </section>    
+            </section>            
         </div>
-        <div class="sections-column">
+        <div class="sections-column sections-right-column">
             <section class="card-box blacklight-font card-white">
                 <div class="card-column">
-                    <h2 class="name-section">Code example</h2>
+                    <h2 class="name-section b-margin-2">Code example</h2>
                     <hr class="box-sep black-sep">
                     <pre class="examples-box">
 Здесь надо что-нибудь написать
@@ -131,20 +115,28 @@
 Здесь надо что-нибудь написать
                     </pre>
                 </div>
+            </section>
+            <section class="card-box white-font card-green">
+                <div class="card-column">
+                    <h2 class="name-section">Experience</h2>
+                    <hr class="box-sep white-sep">
+                    <ul class="contacts-list">
+                        <li><a href="#">Kalilaskaplus</a>
+                        <li><a href="#">imaguru spirit8</a></li>
+                        <li><a href="#">TheYellow</a></li>
+                    </ul>
+                </div>
             </section>    
-        </div>
-        <div class="sections-column">
             <section class="card-box white-font card-orange">
                 <div class="card-column">
                     <h2 class="name-section">Summary</h2>
                     <hr class="box-sep white-sep">
-                    <p>Надеюсь стать отличным <span>front-end</span> разработчиком, хорошо усвоив javascript и сопутствующие фреймворки
+                    <p lang="ru">Надеюсь стать отличным <span>front-end</span> разработчиком, хорошо усвоив javascript и сопутствующие фреймворки
                         и библотеки, используя их возможности
                         на максимум, создавать по-настоящему удобные и приятные интерфейсы.</p>
                 </div>
             </section>    
         </div>
-    
     </main>
     
 </body>
