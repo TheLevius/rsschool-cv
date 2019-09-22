@@ -1,0 +1,350 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+img {
+    box-sizing: content-box;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #3F92D2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1;
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.box-sep {
+    width: 100%;
+    height: 0.2rem;
+    margin: 0 0 3.2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.white-sep {
+    background-color: #ffffff;
+}
+
+.black-sep{
+    background-color: #636363;
+}
+
+.white-font {
+    color: #ffffff;
+}
+
+.blacklight-font {
+    color: #636363;
+}
+
+.task-cont {
+    width: 100%;
+    min-width: 32rem;
+    margin: 0 auto;
+    padding: 3.2rem 1.6rem 1.6rem;
+    background-color: #334654;
+}
+
+.task-name {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    min-width: 32rem;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.h-layout-column {
+    width: 100%;
+    padding: 0 1.6rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.h-layout-box {
+    margin: 2.4rem auto -6.4rem;
+    padding: 6.4rem 0 9.6rem;
+    border-radius: 0.4rem;
+    background-color: #18252d;
+    box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.h-layout-fullname {
+    margin-bottom: 1.6rem;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    text-transform: uppercase;
+}
+
+.h-layout-status {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.h-layout-ava-box {
+    position: relative;
+    z-index: 1;
+    width: 13.6rem;
+    height: auto;
+    min-height: 13.6rem;
+    margin: 0 auto -6.4rem;
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 0 1.6rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+.h-ava-student {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+main {
+    width: 100%;
+    min-width: 32rem;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+.card-box {
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 0 6rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.card-column {
+    padding: 0 2.4rem;
+}
+
+.name-section {
+    margin: 5.2rem auto 0.8rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.name-section.b-margin {
+    margin-top: 8.2rem;
+}
+
+.card-blue {
+    background-color: #27aae1;
+}
+
+.card-purple {
+    background-color: #5a5072;
+}
+
+.card-green {
+    background-color: #5aa080;
+}
+
+.card-red {
+    background-color: #e54c5f;
+}
+
+.card-orange {
+    background-color: #ce7561;
+}
+.card-deepblue {
+    background-color: #1b75bc;
+}
+.card-white {
+    background-color: #fefff7;
+}
+
+div.card-column > p {
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+div.card-column > p span {
+    white-space: nowrap;
+}
+
+ul.cards-list li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 0.8rem;
+    text-indent: 0;
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+ul.cards-list li a {
+    display: inline-block;
+    margin-left: -0.8rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    color: inherit;
+    text-decoration: none;
+    transition: 200ms all;
+    
+}
+ul.cards-list li a:hover {
+    text-decoration: underline;
+    background-color: #ffffff;
+    color: #0072ff;
+    box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+ul.cards-list li a:active {
+    background-color: #ffffff;
+    color: #0072ff;
+    box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
+}
+
+ul.cards-list li span {
+    display: inline-block;
+    margin-top: 0.8rem;
+    line-height: 1.5;
+}
+ul.cards-list li:first-child > span {
+    margin-top: 0;
+}
+ul.cards-list li i {
+    margin: 0 0.8rem 0 -0.8rem;
+    padding: 0.8rem;
+    vertical-align: middle;
+    font-size: 2rem;
+    line-height: 0.8;
+    
+}
+
+.skills-box {
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.skills-cards {
+    display: inline-block;
+    width: calc(33.33% - 0.8rem);
+    min-width: 7.2rem;
+    margin: 0.4rem 1.2rem 2.4rem 0;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-align: center;
+    
+}
+.skills-cards:nth-child(3n) {
+    margin-right: 0;
+}
+
+.skills-cards img {
+    width: auto;
+    height: 3.2rem;
+    margin: 0 auto;
+}
+.skills-cards h3 {
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.examples-box {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    min-height: 24rem;
+    padding: 1.6rem 2.4rem 0 2.4rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff5c5;
+    color: #555555;
+}
+
+@media all and (min-width: 596px) {
+    
+    .sections-left-column {
+        float: left;
+    }
+
+    .sections-right-column {
+        float: right;
+    }
+
+    .name-section.b-margin-2 {
+        margin-top: 8.2rem;
+    }
+
+}
+
+@media all and (min-width: 596px) and (max-width: 959px) {
+
+    header, main {
+        max-width: 95.9rem;
+    }
+
+    .sections-column {
+        max-width: calc(50% - 1.2rem);
+    }
+
+    .card-column {
+        padding: 0 2.4rem;
+    }
+    
+}
+
+@media all and (min-width: 596px) and (max-width: 767px) {
+
+    .skills-cards {
+        min-width: 6.6rem;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+
+    .card-column {
+        padding: 0 4rem;
+    }
+
+}
+
+@media all and (min-width: 960px) {
+    header, main {
+        max-width: 102.4rem;
+    }
+
+    .sections-column.sections-left-column {
+        max-width: calc(33.33% - 1.2rem);
+    }
+
+    .sections-column.sections-right-column {
+        max-width: calc(66.66% - 1.2rem);
+    }
+
+    .h-layout-ava-cont {
+        width: 33.33%;
+        float: left;
+    }
+
+}
