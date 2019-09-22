@@ -24,7 +24,7 @@ body {
     display: table;
     clear: both;
 }
-hr.box-sep {
+.box-sep {
     width: 100%;
     height: 0.2rem;
     margin: 0 0 3.2rem;
@@ -48,7 +48,7 @@ hr.box-sep {
     color: #636363;
 }
 
-div.task-cont {
+.task-cont {
     width: 100%;
     min-width: 32rem;
     margin: 0 auto;
@@ -56,7 +56,7 @@ div.task-cont {
     background-color: #334654;
 }
 
-h1.task-name {
+.task-name {
     font-size: 2rem;
     line-height: 1.6;
     color: #ffffff;
@@ -70,13 +70,14 @@ header {
     margin: 0 auto;
 }
 
-div.h-layout-column {
+.h-layout-column {
     width: 100%;
     padding: 0 1.6rem;
     text-align: center;
     color: #ffffff;
 }
-div.h-layout-box {
+
+.h-layout-box {
     margin: 2.4rem auto -6.4rem;
     padding: 6.4rem 0 9.6rem;
     border-radius: 0.4rem;
@@ -84,18 +85,20 @@ div.h-layout-box {
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
 
-h1.h-layout-fullname {
+.h-layout-fullname {
     margin-bottom: 1.6rem;
     font-weight: 900;
     font-size: 2.8rem;
     line-height: 3.2rem;
     text-transform: uppercase;
 }
-h2.h-layout-status {
+
+.h-layout-status {
     font-weight: normal;
     font-size: 1.4rem;
     line-height: 1.6rem;
 }
+
 .h-layout-ava-box {
     position: relative;
     z-index: 1;
@@ -125,11 +128,6 @@ main {
     padding: 0 1.6rem;
 }
 
-.sections-column {
-    box-sizing: border-box;
-    
-    
-}
 .card-box {
     margin-bottom: 0.8rem;
     padding: 0.8rem 0 6rem;
@@ -141,14 +139,15 @@ main {
 .card-column {
     padding: 0 2.4rem;
 }
-h2.name-section {
+
+.name-section {
     margin: 5.2rem auto 0.8rem;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 1;
 }
 
-h2.name-section.b-margin {
+.name-section.b-margin {
     margin-top: 8.2rem;
 }
 
@@ -238,13 +237,13 @@ ul.cards-list li i {
     
 }
 
-div.skills-box {
+.skills-box {
     width: 100%;
     font-size: 0;
     line-height: 0;
 }
 
-div.skills-cards {
+.skills-cards {
     display: inline-block;
     width: calc(33.33% - 0.8rem);
     min-width: 7.2rem;
@@ -254,22 +253,22 @@ div.skills-cards {
     text-align: center;
     
 }
-div.skills-cards:nth-child(3n) {
+.skills-cards:nth-child(3n) {
     margin-right: 0;
 }
 
-div.skills-cards img {
+.skills-cards img {
     width: auto;
     height: 3.2rem;
     margin: 0 auto;
 }
-div.skills-cards h3 {
+.skills-cards h3 {
     margin-top: 0.8rem;
     font-size: 1.4rem;
     line-height: 1;
 }
 
-pre.examples-box {
+.examples-box {
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100%;
@@ -284,15 +283,15 @@ pre.examples-box {
 
 @media all and (min-width: 596px) {
     
-    div.sections-left-column {
+    .sections-left-column {
         float: left;
     }
 
-    div.sections-right-column {
+    .sections-right-column {
         float: right;
     }
 
-    h2.name-section.b-margin-2 {
+    .name-section.b-margin-2 {
         margin-top: 8.2rem;
     }
 
@@ -304,7 +303,7 @@ pre.examples-box {
         max-width: 95.9rem;
     }
 
-    div.sections-column {
+    .sections-column {
         max-width: calc(50% - 1.2rem);
     }
 
@@ -316,7 +315,7 @@ pre.examples-box {
 
 @media all and (min-width: 596px) and (max-width: 767px) {
 
-    div.skills-cards {
+    .skills-cards {
         min-width: 6.6rem;
     }
 
@@ -335,15 +334,15 @@ pre.examples-box {
         max-width: 102.4rem;
     }
 
-    div.sections-column.sections-left-column {
+    .sections-column.sections-left-column {
         max-width: calc(33.33% - 1.2rem);
     }
 
-    div.sections-column.sections-right-column {
+    .sections-column.sections-right-column {
         max-width: calc(66.66% - 1.2rem);
     }
 
-    div.h-layout-ava-cont {
+    .h-layout-ava-cont {
         width: 33.33%;
         float: left;
     }
