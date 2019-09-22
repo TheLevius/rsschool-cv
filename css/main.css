@@ -103,7 +103,7 @@ h2.h-layout-status {
     height: auto;
     min-height: 13.6rem;
     margin: 0 auto -6.4rem;
-    border: 0.4rem solid #ffffff;
+    padding: 0.4rem;
     border-radius: 50%;
     background-color: #ffffff;
     overflow: hidden;
@@ -282,11 +282,6 @@ pre.examples-box {
     color: #555555;
 }
 
-@media all and (min-width: 321px) and (max-width: 420px) {
-    @import url("./mobile.css") all;
-
-}
-
 @media all and (min-width: 596px) {
     
     div.sections-left-column {
@@ -304,7 +299,6 @@ pre.examples-box {
 }
 
 @media all and (min-width: 596px) and (max-width: 959px) {
-    @import url("./tablet.css") all;
 
     header, main {
         max-width: 95.9rem;
