@@ -108,7 +108,7 @@ h2.h-layout-status {
     border-radius: 50%;
     background-color: #ffffff;
     overflow: hidden;
-    box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 1.6rem -0.6rem rgba(0, 0, 0, 0.8);
 }
 .h-ava-student {
     width: 100%;
@@ -181,7 +181,7 @@ h2.name-section.b-margin {
 
 div.card-column > p {
     margin-top: 0.8rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.5;
 }
 
@@ -189,7 +189,7 @@ div.card-column > p span {
     white-space: nowrap;
 }
 
-ul.contacts-list li {
+ul.cards-list li {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
@@ -200,8 +200,9 @@ ul.contacts-list li {
     line-height: 1;
 }
 
-ul.contacts-list li a {
+ul.cards-list li a {
     display: inline-block;
+    margin-left: -0.8rem;
     padding: 0.8rem;
     border-radius: 0.4rem;
     color: inherit;
@@ -209,28 +210,28 @@ ul.contacts-list li a {
     transition: 200ms all;
     
 }
-ul.contacts-list li a:hover {
+ul.cards-list li a:hover {
     text-decoration: underline;
     background-color: #ffffff;
     color: #0072ff;
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
-ul.contacts-list li a:active {
+ul.cards-list li a:active {
     background-color: #ffffff;
     color: #0072ff;
     box-shadow: 0 0 0.8rem -0.4rem rgba(0, 0, 0, 0.4);
 }
 
-ul.contacts-list li span {
+ul.cards-list li span {
     display: inline-block;
     margin-top: 0.8rem;
     line-height: 1.5;
 }
-ul.contacts-list li:first-child > span {
+ul.cards-list li:first-child > span {
     margin-top: 0;
 }
-ul.contacts-list li i {
-    margin-left: -0.8rem;
+ul.cards-list li i {
+    margin: 0 0.8rem 0 -0.8rem;
     padding: 0.8rem;
     vertical-align: middle;
     font-size: 2rem;
@@ -273,16 +274,14 @@ pre.examples-box {
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100%;
-    min-height: 16rem;
-    padding: 1.6rem 0 0 2.4rem;
-    border-right: 2.4rem solid #fff5c5;
+    min-height: 24rem;
+    padding: 1.6rem 2.4rem 0 2.4rem;
     font-size: 1.4rem;
     line-height: 2rem;
     font-family: 'Courier New', Courier, monospace;
     background-color: #fff5c5;
     color: #555555;
 }
-
 
 @media all and (min-width: 321px) and (max-width: 420px) {
     @import url("./mobile.css") all;
